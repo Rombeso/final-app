@@ -37,6 +37,7 @@ export const RoutesComp = () => {
             <Routes>
                 {/*<Route path={'/'} element={<Navigate to={PATH.PRE_JUNIOR}/>}/>*/}
                 <Route path={'/*'}  element={<Navigate to={PATH.START_PAGE + PATH.LOGIN}/>}/>
+                <Route path={PATH.START_PAGE}  element={<Navigate to={PATH.START_PAGE + PATH.LOGIN}/>}/>
                 <Route path={PATH.START_PAGE + '/*'} element={(
                     <Routes>
                             <Route path={'/login'} element={<Login/>}/>
