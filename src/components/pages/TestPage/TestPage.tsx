@@ -1,4 +1,4 @@
-import {ChangeEvent, useState} from "react";
+import {useState} from "react";
 import SuperInputText from "../../common/SuperInputText/SuperInputText";
 import SuperButton from "../../common/SuperButton/SuperButton";
 import SuperCheckbox from "../../common/SuperCheckbox/SuperCheckbox";
