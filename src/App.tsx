@@ -7,11 +7,12 @@ import {BrowserRouter} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-        {/*<HashRouter>*/}
-
+        {/*<HashRouterr>*/}
+      {/*s;dlf;slfdsdf*/}
+уццкук
               <Header/>
               <RoutesComp/>
-
+      Привет
           {/*</HashRouter>*/}
     </div>
   );
